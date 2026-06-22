@@ -62,6 +62,7 @@
     /* border: 1px solid khaki; */
     width: 11px;
     padding-top: 10px;
+    margin-left: 10px;
     /* margin-top: 20px; */
 }
 
@@ -116,8 +117,8 @@
 .main{
     margin-left: 230px;
     margin-top: 180px;
-    border: 1px solid white;
-    height: 500dvh;
+    /* border: 1px solid white; */
+    height: 542dvh;
     width: 62%;
     text-align: left;
     padding: 10px;
@@ -356,7 +357,7 @@
 }
     /* next section */
 .word{
-    border: 1px solid slateblue;
+    /* border: 1px solid slateblue; */
     height: auto;
     margin-top: 50px;
     width: 100%;
@@ -393,4 +394,354 @@
     letter-spacing: 1px;
     color: #EAE6E4;
 }
+    /* nav tag */
+.tag{
+    /* border: 1px solid yellowgreen; */
+    margin-top: 50px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.q{
+    margin-top: 10px;
+    /* border: 1px solid lightblue; */
+    padding: 9px;
+    font-size: 22.5px;
+    font-family: "PPMori", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
+}
+.one{
+    color: #FFC726;
+}
+.six{
+    color: #EAE6E4;
+    padding: 0px;
+}
+.two{
+   text-decoration: underline dotted;
+   color: #EAE6E4;
+}
+.two:hover{
+    text-decoration: underline;
+    color: #FFC726;
+    transition-duration: 0.3s;
+}
+.three{
+   text-decoration: underline dotted;
+   color: #EAE6E4;
+}
+.three:hover{
+    text-decoration: underline;
+    color: #FFC726;
+    transition-duration: 0.3s;
+}
+.four{
+   text-decoration: underline dotted;
+   color: #EAE6E4;
+}
+.four:hover{
+    text-decoration: underline;
+    color: #FFC726;
+    transition-duration: 0.3s;
+}
+.five{
+   text-decoration: underline dotted;
+   color: #EAE6E4;
+   padding-right: 1px;
+}
+.five:hover{
+    text-decoration: underline;
+    color: #FFC726;
+    transition-duration: 0.3s;
+}
+.fa-angle-right{
+    font-size: 14px;
+}
+.fa-angles-right{
+    font-size: 14px;
+}
+.seven{
+    color: #EAE6E4;
+    text-decoration: underline dotted;
+    padding-left: 0px;
+}
+.seven:hover{
+    color: #FFC726;
+    text-decoration: underline;
+}
+.eight{
+    color: #EAE6E4;
+    text-decoration: underline dotted;
+    transition-duration: 0.3s;
+    padding-left: 0px;
+}
+.eight:hover{
+    color: #FFC726;
+    text-decoration: underline;
+    transition-duration: 0.3s;
+}
+.footer{
+    height: 78dvh;
+    width: 98.8vw;
+    display: flex;
+    border-top: 2px solid #2F1C1C;
+    justify-content: space-between;
+    position: relative;
+}
+.foot{
+    /* border: 1px solid white; */
+    /* width: 40%; */
+    padding: 30px;
+}
+.foot1{
+    width: 42.5%;
+    padding-top: 40px;
+}
+.foot1 img{
+    width: 56%;
+}
+.foot1 small{
+    position: absolute;
+    bottom: 60px;
+    left: 35px;
+    line-height: 25px;
+    font-size: 17px;
+    font-family: "PPMori", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #C1BAB7;
+}
+.foot2{
+    width: 52%;
+    padding-top: 50px;
+    position: relative;
+    padding-left: 40px;
+}
+.cas{
+    font-size: 20px;
+    font-family: "PPMori", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+}
+.serv{
+    color: #EAE6E4;
+    text-decoration: underline dotted;
+}
+.serv:hover{
+    color: #FFC726;
+    text-decoration: #201313 underline;
+    transition-duration: 0.2s;
+}
+.stud{
+    color: #EAE6E4;
+    text-decoration: underline dotted;
+    line-height: 30px;
+}
+.stud:hover{
+    color: #FFC726;
+    text-decoration: #201313 underline;
+    transition-duration: 0.2s;
+}
+.reso{
+    color: #EAE6E4;
+    text-decoration: underline dotted;
+    line-height: 30px;
+}
+.reso:hover{
+    color: #FFC726;
+    text-decoration: #201313 underline;
+    transition-duration: 0.2s;
+}
+.talk{
+    color: #FFE7A3;
+    text-decoration: underline;
+    line-height: 30px;
+}
+.talk:hover{
+    color: #FFC726;
+    text-decoration: #201313 underline;
+    transition-duration: 0.25s;
+}
+.cas2{
+position: absolute;
+top: 45px;
+left: 264px;
+}
+.comp{
+    color: #EAE6E4;
+    text-decoration: underline dotted;
+    line-height: 30px;
+}
+.comp:hover{
+    color: #FFC726;
+    text-decoration: #201313 underline;
+    transition-duration: 0.2s;
+}
+.care{
+    color: #EAE6E4;
+    text-decoration: underline dotted;
+    line-height: 30px;
+}
+.care:hover{
+    color: #FFC726;
+    text-decoration: #201313 underline;
+    transition-duration: 0.2s;
+}
+.blog{
+    color: #EAE6E4;
+    text-decoration: underline dotted;
+    line-height: 30px;
+}
+.blog:hover{
+    color: #FFC726;
+    text-decoration: #201313 underline;
+    transition-duration: 0.2s;
+}
+.even{
+    color: #EAE6E4;
+    text-decoration: underline dotted;
+    line-height: 30px;
+}
+.even:hover{
+    color: #FFC726;
+    text-decoration: #201313 underline;
+    transition-duration: 0.2s;
+}
+.spon{
+    color: #EAE6E4;
+    text-decoration: underline dotted;
+    line-height: 30px;
+}
+.spon:hover{
+    color: #FFC726;
+    text-decoration: #201313 underline;
+    transition-duration: 0.2s;
+}
+.stor{
+    color: #EAE6E4;
+    text-decoration: underline dotted;
+    line-height: 30px;
+}
+.stor:hover{
+    color: #FFC726;
+    text-decoration: #201313 underline;
+    transition-duration: 0.2s;
+}
+.purp{
+    color: #EAE6E4;
+    text-decoration: underline dotted;
+    line-height: 30px;
+}
+.purp:hover{
+    color: #FFC726;
+    text-decoration: #201313 underline;
+    transition-duration: 0.2s;
+}
+.cas3{
+    position: absolute;
+    top: 45px;
+    right: 115px;
+}
+.mast{
+    color: #EAE6E4;
+    text-decoration: underline dotted;
+    line-height: 30px;
+}
+.mast:hover{
+    color: #FFC726;
+    text-decoration: #201313 underline;
+    transition-duration: 0.2s;
+}
+.blue{
+    color: #EAE6E4;
+    text-decoration: underline dotted;
+    line-height: 30px;
+}
+.blue:hover{
+    color: #FFC726;
+    text-decoration: #201313 underline;
+    transition-duration: 0.2s;
+}
+.gith{
+    color: #EAE6E4;
+    text-decoration: underline dotted;
+    line-height: 30px;
+}
+.gith:hover{
+    color: #FFC726;
+    text-decoration: #201313 underline;
+    transition-duration: 0.2s;
+}
+.yout{
+    color: #EAE6E4;
+    text-decoration: underline dotted;
+    line-height: 30px;
+}
+.yout:hover{
+    color: #FFC726;
+    text-decoration: #201313 underline;
+    transition-duration: 0.2s;
+}
+.twit{
+    color: #EAE6E4;
+    text-decoration: underline dotted;
+    line-height: 30px;
+}
+.twit:hover{
+    color: #FFC726;
+    text-decoration: #201313 underline;
+    transition-duration: 0.2s;
+}
+.feed{
+    color: #EAE6E4;
+    text-decoration: underline dotted;
+    line-height: 30px;
+}
+.feed:hover{
+    color: #FFC726;
+    text-decoration: #201313 underline;
+    transition-duration: 0.2s;
+}
+.foot2 small{
+    position: absolute;
+    bottom: 90px;
+    right: 180px;
+    padding-left: 40px;
+    /* border: 1px solid honeydew; */
+    color: #C1BAB7;
+    font-size: 16.6px;
+    font-family: "PPMori", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+.ost{
+    text-decoration: 1.6px underline dotted;
+}
+.ost:hover{
+    text-decoration: none;
+}
+.ond{
+    text-decoration: 1.6px underline dotted;
+    padding-left: 12px;
+}
+.ond:hover{
+    text-decoration: none;
+}
+.ord{
+    text-decoration: 1.6px underline dotted;
+}
+.ord:hover{
+    text-decoration: 0.01px underline dotted;
+}
+.oth{
+    text-decoration: 1.6px underline dotted;
+    padding-left: 12px;
+}
+.oth:hover{
+    text-decoration: 0.01px underline dotted;
+}
+.ath{
+    text-decoration: 1.6px underline dotted;
+    padding-left: 12px;
+}
+.ath:hover{
+    text-decoration: 0.01px underline dotted;
+}
